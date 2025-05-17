@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+.gift-img {
+    margin-bottom: 2rem;
+}
+.gift-info h3 {
+    text-transform: uppercase;
+    color: hsl(60, 4%, 5%);
+}
+.gift-info p{
+    margin: 2rem 0;
+    font-size: 1.1rem;
+}
+
+.deadline {
+    display: flex;
+}
+.deadline-format {
+    background: #12539e;
+    color: white;
+    width: 5rem; 
+    height: 5rem;
+    display: grid;
+    place-items: center;
+}
+.deadline-format span {
+    font-size: 0.85rem;
+}
