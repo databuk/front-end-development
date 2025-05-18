@@ -1,0 +1,95 @@
+body {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+#container {
+    width: 100%;
+    max-width: 800%;
+    padding: 20%;
+    
+}
+#temperature-converter-card {
+    /* width: 70vh; */
+    background-color: white;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow:  0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+}  
+
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #555;
+} 
+.converter-form {
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* gap: 10px; */
+    align-items: center;
+}
+.select-unit {
+    height: 46px;
+    padding: 0 10px;
+}
+#inputTemperature {
+    width: 100px;
+    height: 30px;
+    appearance: none;
+
+}
+#convertBtn {
+    margin-top: 20px;
+    height:  48px;
+    padding: 0 30px; 
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+}
+#convertBtn:hover {
+    background-color: #333;
+}
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: 4CAF50;
+    font-weight: bold;
+}
+.dropdown-container {
+    position: relative;;
+}
+#converter-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.select-unit {
+    border-radius: 15px;
+    width:  150px;
+    height: 40px;
+}
+#inputTemperature {
+    border-radius: 15px;
+    width:  150px;
+    height: 40px;
+}
+label {
+    font-weight: 600;
+}
