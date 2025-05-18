@@ -73,9 +73,7 @@ p {
     color: 4CAF50;
     font-weight: bold;
 }
-.dropdown-container {
-    position: relative;;
-}
+
 #converter-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
